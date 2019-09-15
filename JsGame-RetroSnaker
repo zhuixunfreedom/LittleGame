@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>贪吃蛇游戏</title>
+		<link rel="stylesheet" href="css/retrosnaker.css" />
+		<script src="js/jquery-3.4.1.js"></script>
+		<script type="text/javascript" src="js/retrosnaker.js"></script>
+	</head>
+	<body>
+		<span id="gameover">Game Over</span>
+		 <div id="point">
+		 	得分：<span id="span">0</span><br />
+		 	剩余时间：<span id="time">99</span>
+		 </div>
+		<div id="start" onclick="startgame()">
+			<h1>开始游戏</h1>
+		</div>
+	</body>
+</html>
